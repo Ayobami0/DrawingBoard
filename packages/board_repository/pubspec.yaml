@@ -1,0 +1,14 @@
+name: board_repository
+description: "Repository for handling board related data."
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  board_api:
+    path: ../board_api
+
+dev_dependencies:
+  test: ^1.21.4
